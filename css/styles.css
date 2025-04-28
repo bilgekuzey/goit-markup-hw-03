@@ -178,6 +178,8 @@ ul,
   justify-content: space-between;
   width: 1440px;
   height: 72px;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .headerlogo {
@@ -192,14 +194,25 @@ ul,
 .nav-list {
   display: flex;
   gap: 40px;
-  left: 191px;
-  margin-left: 76px;
+  left: 1px;
+  margin-left: -191px;
 }
 
 .contact > ul {
   display: flex;
-  gap: 40px;
-  left: 332px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.contact > ul li:first-child {
+  position: relative;
+  left: 940x;
+}
+
+.contact > ul li:last-child {
+  position: relative;
+  left: 40px;
 }
 
 .container {
@@ -242,9 +255,13 @@ ul,
   padding: 0 15px;
 }
 
-.portfolio_header_container > ul {
+.section_portfolio ul {
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 calc(33.33% - 24px);
-  align-content: flex-start;
+  gap: 24px;
+  padding: 0;
+}
+.section_portfolio ul li {
+  width: calc((100% - 48px) / 3);
+  list-style: none;
 }
