@@ -156,8 +156,6 @@ ul,
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
-  padding-left: 156px;
-  padding-top: 96px;
 }
 .footer-logo span {
   color: #4d5ae5;
@@ -173,58 +171,80 @@ ul,
   color: #f4f4fd;
 }
 
-/*ödev 3 buradan başlıyor */
-
+/*3.ödev*/
 .containerheader {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  width: 1440px;
+  height: 72px;
 }
 
-.contact {
+.headerlogo {
   display: flex;
-  gap: 20px;
-}
-
-.contact {
-  text-decoration: none;
-  color: black;
+  align-items: center;
+  margin-left: 156px;
+  top: 24px;
+  height: 24px;
+  width: 125px;
 }
 
 .nav-list {
   display: flex;
-  list-style: none;
   gap: 40px;
+  left: 191px;
+  margin-left: 76px;
+}
+
+.contact > ul {
+  display: flex;
+  gap: 40px;
+  left: 332px;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section2container {
+  flex: 1 1 calc(25% - 24px);
+  text-align: left;
+  padding: 20px;
+}
+
+.section2container > ul {
+  width: 1128px;
+  height: 104px;
+  display: flex;
+  list-style: none;
+  gap: 1px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
   margin: 0;
-  padding: 0;
 }
 
-.section2 .container > ul {
+.section_portfolio {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 120px 0;
+}
+.section_portfolio .container {
+  padding: 0 15px;
+}
+
+.portfolio_header_container > ul {
   display: flex;
-  justify-content: center;
-  gap: 24px;
-  list-style: none;
-}
-
-.section3 .container > ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
-.section_portfolio .container > ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  list-style: none;
-  padding: 0;
-}
-
-.section_footer .container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 264px;
+  flex-wrap: wrap;
+  flex: 1 1 calc(33.33% - 24px);
+  align-content: flex-start;
 }
