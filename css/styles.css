@@ -155,9 +155,6 @@ ul,
   text-transform: capitalize;
 }
 
-.section_footer {
-  background-color: #2e2f42;
-}
 .footer_text {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -280,4 +277,9 @@ ul,
 .section_portfolio ul li {
   width: calc((100% - 48px) / 3);
   list-style: none;
+}
+
+.container_footer {
+  margin-top: 100px;
+  margin-left: 264px;
 }
