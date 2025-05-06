@@ -174,11 +174,6 @@ ul,
   color: #f4f4fd;
   text-decoration: none;
 }
-.footer_text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
 
 /*3.ödev*/
 .containerheader {
@@ -226,8 +221,6 @@ ul,
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -239,7 +232,7 @@ ul,
 
 .section2container {
   flex: 1 1 calc(25% - 24px);
-  text-align: left;
+
   padding: 20px;
 }
 
@@ -278,9 +271,15 @@ ul,
 .section_portfolio ul li {
   width: calc((100% - 48px) / 3);
   list-style: none;
+  border: 1px #e7e9fc;
 }
 
 .container_footer {
   margin-top: 100px;
   margin-left: 264px;
+}
+.portfolio_header_container ul li {
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
 }
