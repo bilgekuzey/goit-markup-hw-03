@@ -224,12 +224,6 @@ ul,
   margin: 0 auto;
 }
 
-.container_ourteam {
-  margin: auto;
-  width: 1440px;
-  height: 732px;
-}
-
 .section2container {
   flex: 1 1 calc(25% - 24px);
 
