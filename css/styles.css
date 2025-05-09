@@ -5,7 +5,6 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-weight: regular;
 }
 
 .headerlogo {
@@ -105,6 +104,8 @@ ul,
 .section3 {
   background-color: #f4f4fd;
   text-align: center;
+  padding-bottom: 32px;
+  gap: 32px;
 }
 
 .section3_item_h2 {
@@ -113,12 +114,10 @@ ul,
   letter-spacing: 0.02em;
   font-weight: 500;
   line-height: 1.2;
-  margin: 24px 0 8px;
 }
 .section3_item_text {
   color: #434455;
   line-height: 1.5;
-  margin-bottom: 24px;
 }
 
 .section3_header {
@@ -129,6 +128,7 @@ ul,
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  height: 40px;
   padding-top: 120px;
 }
 
@@ -182,8 +182,6 @@ ul,
   justify-content: space-between;
   width: 1440px;
   height: 72px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 .headerlogo {
@@ -204,38 +202,31 @@ ul,
 
 .contact > ul {
   display: flex;
-  position: relative;
-  padding: 0;
-  margin: 0;
+  align-content: flex-end;
 }
 
-.contact > ul li:first-child {
-  position: relative;
-  left: 940x;
+.link1,
+.link2 {
+  text-decoration: none;
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
-
-.contact > ul li:last-child {
-  position: relative;
-  left: 40px;
+.link1 {
+  padding-right: 40px;
 }
-
 .container {
   max-width: 1158px;
   margin: 0 auto;
 }
 
-.section2container {
-  flex: 1 1 calc(25% - 24px);
-
-  padding: 20px;
-}
-
-.section2container > ul {
-  width: 1128px;
-  height: 104px;
+.section2 .container > ul {
   display: flex;
-  list-style: none;
-  gap: 1px;
+  justify-content: center;
+  padding: 120px 0;
+  gap: 8px;
 }
 
 .team-container {
@@ -252,15 +243,11 @@ ul,
   text-align: center;
   padding: 120px 0;
 }
-.section_portfolio .container {
-  padding: 0 15px;
-}
 
 .section_portfolio ul {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding: 0;
 }
 .section_portfolio ul li {
   width: calc((100% - 48px) / 3);
@@ -272,8 +259,8 @@ ul,
   margin-top: 100px;
   margin-left: 264px;
 }
-.portfolio_header_container ul li {
-  border-width: 1px 1px 1px 1px;
+.cervece {
+  border-width: 0px 1px 1px 1px;
   border-style: solid;
   border-color: #e7e9fc;
 }
