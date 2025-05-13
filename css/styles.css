@@ -63,7 +63,6 @@ ul,
   text-align: center;
   width: 1440px;
   height: 600px;
-  background-image: url(./images/hero\ image.svg);
 }
 
 .footercontainer,
@@ -241,6 +240,12 @@ ul,
   gap: 20px;
   list-style: none;
   margin-top: 112px;
+}
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  line-height: 0;
 }
 
 .section_portfolio {
