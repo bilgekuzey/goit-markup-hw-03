@@ -168,7 +168,7 @@ ul,
 }
 .section_footer {
   background-color: #2e2f42;
-  width: 1440px;
+  width: 100vw;
   height: 312px;
 }
 .footer-logo span {
@@ -201,7 +201,7 @@ ul,
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-lef: 76px;
+  margin-left: 76px;
 }
 
 .contact > ul {
@@ -223,7 +223,7 @@ ul,
   padding-right: 40px;
 }
 .container {
-  max-width: 1158px;
+  max-width: 1128px;
   margin: 0 auto;
 }
 
@@ -240,7 +240,9 @@ ul,
   gap: 20px;
   list-style: none;
   margin-top: 112px;
+  width: 1128px;
 }
+
 .portfolio-item {
   display: flex;
   flex-direction: column;
@@ -249,7 +251,7 @@ ul,
 }
 
 .section_portfolio {
-  max-width: 1200px;
+  max-width: 1128px;
   margin: 0 auto;
   text-align: center;
   padding: 120px 0;
@@ -259,18 +261,19 @@ ul,
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  list-style: none;
 }
+
 .section_portfolio ul li {
   width: calc((100% - 48px) / 3);
   list-style: none;
   border: 1px #e7e9fc;
 }
-
 .container_footer {
   margin-top: 100px;
   margin-left: 156px;
 }
-.cervece {
+.cerceve {
   border-width: 0px 1px 1px 1px;
   border-style: solid;
   border-color: #e7e9fc;
