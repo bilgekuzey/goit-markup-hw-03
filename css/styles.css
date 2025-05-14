@@ -243,13 +243,18 @@ ul,
   width: 1128px;
 }
 
+.team-container > li {
+  margin-bottom: 32px;
+}
 .portfolio-item {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   line-height: 0;
 }
-
+.portfolio-list > li {
+  overflow: hidden;
+}
 .section_portfolio {
   max-width: 1128px;
   margin: 0 auto;
